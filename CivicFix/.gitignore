@@ -1,102 +1,24 @@
-# =========================
-# 🧠 PYTHON / ANACONDA
-# =========================
-__pycache__/
-*.py[cod]
-*.pyo
-*.pyd
-*.so
-*.egg
-*.egg-info/
-dist/
-build/
-.eggs/
-pip-wheel-metadata/
-venv/
-env/
-.venv/
-ENV/
-.ipynb_checkpoints/
-*.ipynb_checkpoints/
-.anaconda/
-.conda/
-.condarc
-.cache/
-.local/
-.python-version
-
-# =========================
-# 💻 VS CODE
-# =========================
-.vscode/
-.history/
-*.code-workspace
-
-# =========================
-# 🍎 MACOS
-# =========================
+*.log
 .DS_Store
-.AppleDouble
-.LSOverride
-Icon?
-._*
-
-# =========================
-# 🧩 SYSTEM / USER FILES
-# =========================
-.bash_history
-.bash_profile
-.bashrc
-.profile
-.zshrc
-.zprofile
-.zlogin
-.zlogout
-.gitconfig
-.gitattributes
-.config/
-.keychain/
-.idea/
-*.log
-*.pid
-
-# =========================
-# 🧪 TEST / TEMP FILES
-# =========================
-tmp/
-temp/
-*.tmp
-*.bak
-*.swp
-*.swo
-
-# =========================
-# 📊 DATA / NOTEBOOKS
-# =========================
-*.csv
-*.tsv
-*.xlsx
-*.xls
-*.db
-*.sqlite
-*.sqlite3
-*.h5
-*.parquet
-
-# =========================
-# 🧰 JUPYTER / NOTEBOOKS
-# =========================
-.ipynb_checkpoints
-profile_default/
-.ipython/
-
-# =========================
-# 🪣 AZURE / CLOUD
-# =========================
-*.publishsettings
-*.azure
-*.log
-*.env
-*.secrets
-*.token
-*.pkl
+.env
+.env.backup
+.env.production
+.phpactor.json
+.phpunit.result.cache
+/.fleet
+/.idea
+/.nova
+/.phpunit.cache
+/.vscode
+/.zed
+/auth.json
+/node_modules
+/public/build
+/public/hot
+/public/storage
+/storage/*.key
+/storage/pail
+/vendor
+Homestead.json
+Homestead.yaml
+Thumbs.db
